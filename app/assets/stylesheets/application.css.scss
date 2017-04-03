@@ -44,11 +44,25 @@
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
-  &hover {
+  &:hover {
     color: white;
     opacity: 0.75;
   }
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00c6ff;
+  }
+}
+
+
+
 
 //HomePage Styles
 .home-callout {
