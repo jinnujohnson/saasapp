@@ -12,4 +12,4 @@ ActionMailer::Base.smtp_settings = {
   :domain         => 'blooming-wave-46887.herokuapp.com',
   :authentication => :plain,
 }
-ActionMailer::Base.delivery_method = :smtp
+ActionMailer::Base.delivery_method = :smtp8 
