@@ -1,0 +1,5 @@
+Memberships
+* User must see link for basic membership plan in homepage
+* User must see link for pro membership plan in homepage
+* Basic membership plan points to regular devise signup form
+* Pro membership plan points to custom sign up form
