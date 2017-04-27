@@ -23,4 +23,5 @@
     </div>
 
   </div>
+  <%= link_to "Create Your Profile", new_user_profile_path(user_id: current_user.id) if user_signed_in? %>
 </div>
