@@ -5,6 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
          
   belongs_to :plan
+  has_one :user
   
   attr_accessor :stripe_card_token
   
