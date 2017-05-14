@@ -3,7 +3,7 @@ class ProfilesController < ApplicationController
 # GET request to /users/:user_id/profile/new
   def new
     # Render blank profile form
-    @profiles = Profile.new
+    @profile = Profile.new
   end
   
   def create
@@ -18,6 +18,13 @@ class ProfilesController < ApplicationController
       render action: :new
     end
   end
+  
+  def edit
+    # GET request to /users/:user_id/profile/edit
+    @user = User.find( params[:user_id] )
+    @profile = @user.profile
+  end
+  
   
 private
   def profile_params
