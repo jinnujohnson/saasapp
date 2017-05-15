@@ -6,7 +6,7 @@ all beginners who wish to step on Ruby On Rails platform. Really I'm excited and
 # About DevMatch
 
 This is purely a membership platform where users having job title developers, investors or entrepreneurs can signup and access this application. 
-This application act as a platform for entrepreneurs and investors can meet developers.
+This application act as a platform for entrepreneurs and investors who can meet developers and get their contact information.
 
 
 
